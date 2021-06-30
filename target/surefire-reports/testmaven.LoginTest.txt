@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testmaven.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.029 sec - in testmaven.LoginTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.865 sec - in testmaven.LoginTest

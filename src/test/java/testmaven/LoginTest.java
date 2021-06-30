@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -51,8 +52,10 @@ public class LoginTest {
 
     @BeforeClass
     public void setup() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
         System.setProperty("webdriver.chrome.driver","D:\\javap\\sample-demo\\demo-new\\drivers\\chromedriver.exe");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
     }
 
