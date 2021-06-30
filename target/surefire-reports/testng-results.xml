@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="7135" started-at="2021-06-30T00:08:11 IST" finished-at="2021-06-30T00:08:18 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="7135" started-at="2021-06-30T00:08:11 IST" finished-at="2021-06-30T00:08:18 IST">
+      <class name="testmaven.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testmaven.LoginTest@7cd62f43]" name="setup" is-config="true" duration-ms="3989" started-at="2021-06-30T00:08:11 IST" finished-at="2021-06-30T00:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="static_select_test()[pri:0, instance:testmaven.LoginTest@7cd62f43]" name="static_select_test" duration-ms="560" started-at="2021-06-30T00:08:15 IST" finished-at="2021-06-30T00:08:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- static_select_test -->
+        <test-method status="PASS" signature="updated_dropdown_test()[pri:0, instance:testmaven.LoginTest@7cd62f43]" name="updated_dropdown_test" duration-ms="2386" started-at="2021-06-30T00:08:16 IST" finished-at="2021-06-30T00:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updated_dropdown_test -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testmaven.LoginTest@7cd62f43]" name="cleanup" is-config="true" duration-ms="159" started-at="2021-06-30T00:08:18 IST" finished-at="2021-06-30T00:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testmaven.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
