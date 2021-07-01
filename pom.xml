@@ -86,7 +86,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>test_repo</id>
       <name>Corporate Repository</name>
-      <url>C:\Users\Admin\.local\repository</url>
+      <url>http://localhost/releases</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
