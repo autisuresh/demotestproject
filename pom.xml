@@ -80,4 +80,14 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>test_repo</id>
+      <name>Corporate Repository</name>
+      <url>C:\Users\Admin\.local\repository</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
 </project>
