@@ -11,6 +11,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class LoginTest {
 
     private static WebDriver driver;
@@ -49,6 +51,21 @@ public class LoginTest {
         assert updatedDropdown.getText().contentEquals("5 Adult");
         System.out.println("spicejet dropdown test");
     }
+
+    @Test
+    public void auto_suggest_dropdown_test() throws InterruptedException {
+        WebElement element2 = driver.findElement(By.id("autosuggest"));
+        element2.sendKeys("ind");
+        Thread.sleep(2000);
+
+        List<WebElement> lists = driver.findElements(By.className("ui-menu-item"));
+        for (WebElement list : lists) {
+            if(list.getText().equalsIgnoreCase("india")) {
+                list.click();
+                break;
+            }
+        }
+     }
 
     @BeforeClass
     public void setup() {
