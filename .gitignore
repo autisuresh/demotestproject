@@ -1,3 +1,4 @@
 .idea
 /target/surefire-reports/*
+/target/test-classes/*
 ./tmp/
